@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Personal Information</title>
+
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/information.css">
+
+</head>
+
+<ul>
+    <li><a href="information.html" class="active">Step-1</a></li>
+    <li><a href="authentication.html">Step-2</a></li>
+</ul>
+
+
+<div class="main-content">
+
+    <!-- You only need this form and the form-basic.css -->
+
+    <form class="form-basic" method="post" action="#">
+
+        <div class="form-title-row">
+            <h1>Open Your Account</h1>
+        </div>
+
+        <div class="form-row">
+            <label>
+                <span>Full name</span>
+                <input type="text" name="name">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label><span>Gender</span></label>
+            <div class="form-radio-buttons">
+
+                <div>
+                    <label>
+                        <input type="radio" name="radio">
+                        <span>Male</span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="radio">
+                        <span>Female</span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label>
+                <span>Email</span>
+                <input type="email" name="email">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label>
+                <span>Type Of Account</span>
+                <select name="dropdown">
+                    <option>Select</option>
+                    <option>Current</option>
+                    <option>Savings</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label>
+                <span>Address</span>
+                <textarea name="textarea"></textarea>
+            </label>
+        </div>
+
+        <div class="form-row">
+            <!-- <button ><a href="authentication.html">Next</a></button>s -->
+            <button type="submit"><a href="authentication.html">Next</a></button>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
